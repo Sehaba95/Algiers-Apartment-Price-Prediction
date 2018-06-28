@@ -162,6 +162,16 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
 </table>
 
+<h2>Plot features</h2>
+
+![commune](https://user-images.githubusercontent.com/19336306/42030378-87190468-7aca-11e8-8c64-60f721b4ce4d.png)
+
+![etage](https://user-images.githubusercontent.com/19336306/42030380-87579d9a-7aca-11e8-86a0-97f9606e0bac.png)
+
+![piece](https://user-images.githubusercontent.com/19336306/42030381-8794c422-7aca-11e8-9c08-7250624f36b8.png)
+
+![superficie](https://user-images.githubusercontent.com/19336306/42030382-87c79118-7aca-11e8-8141-4a55219ecfaf.png)
+
 <h2>Requirements</h2>
 Python 2.7 and up
 
@@ -176,8 +186,8 @@ The followoing are the prerequiste Python modules that needs to be installed to 
 <h2>Downloads</h2>
 Clone the repository using the below mentioned command and execute the Python program.
 	
-	git clone 
-	cd /Algorithms
+	git clone https://github.com/Sehaba95/Algiers-Apartment-Price-Prediction.git
+	cd Algiers-Apartment-Price-Prediction/Regressors
 	python AdaBoostRegressor.py
 
 <h2>Authors</h2>
