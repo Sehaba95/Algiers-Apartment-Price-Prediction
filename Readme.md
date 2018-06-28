@@ -8,7 +8,7 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
 <table>
   <tr>
     <th>Algorithm</th>
-    <th>Accuracy</th> 
+    <th>Model performance</th> 
   </tr>
   <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.11618146309209254</td> </tr>
   <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.14089356791618024</td> </tr>
@@ -90,8 +90,6 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
 <table>
   <tr>
     <th></th>
-    <th>Length</th> 
-    <th>Count</th>
     <th>Minimum</th> 
     <th>Maximum</th>
     <th>Mode</th> 
@@ -102,8 +100,6 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
   <tr> 
   	<td>Commune</td>
-    <td>3552</td> 
-    <td>3552</td> 
     <td>1</td> 
     <td>28</td> 
     <td>4</td>  
@@ -113,9 +109,7 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
     <td>[4.0, 13.0, 22.0]</td> 
    </tr>
   <tr>
-  	<td>Etage</td>   
-    <td>3552</td> 
-    <td>3552</td> 
+  	<td>Etage</td> 
     <td>1</td> 
     <td>15</td> 
     <td>1</td>  
@@ -126,8 +120,6 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
   <tr> 
   	<td>Superficie</td>     
-    <td>3552</td> 
-    <td>3552</td> 
     <td>1</td> 
     <td>250</td> 
     <td>75</td>  
@@ -138,8 +130,6 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
   <tr>
   	<td>Piece</td>   
-    <td>3552</td> 
-    <td>3552</td> 
     <td>1</td> 
     <td>9</td> 
     <td>3</td>  
@@ -150,8 +140,6 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
   <tr>
   	<td>Prix</td>   
-    <td>3552</td> 
-    <td>3552</td> 
     <td>1000.0</td> 
     <td>3000.0</td> 
     <td>2000.0</td>  
@@ -201,6 +189,11 @@ Clone the repository using the below mentioned command and execute the Python pr
 <h2>Authors</h2>
 
 	Sehaba Amine
+
+
+<h2>Contributors</h2>
+  
+    Okba Bekhelifi 
 
 <h2>Contributing</h2>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
