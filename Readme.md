@@ -193,4 +193,4 @@ Clone the repository using the below mentioned command and execute the Python pr
 
 <h2>Contributors</h2>
   
-    Okba Bekhelifi 
+    ![Okba BEKHELIFI](https://github.com/okbalefthanded)
