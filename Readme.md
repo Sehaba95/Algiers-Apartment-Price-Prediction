@@ -194,7 +194,3 @@ Clone the repository using the below mentioned command and execute the Python pr
 <h2>Contributors</h2>
   
     Okba Bekhelifi 
-
-<h2>Contributing</h2>
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
