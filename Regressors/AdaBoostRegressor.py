@@ -5,9 +5,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import AdaBoostRegressor
 
-data = pd.read_csv("dataset.csv",header=0)
+data = pd.read_csv("dataset1.csv",header=0)
 
-X = data.loc[:,["Commune","Etage"]].values
+X = data.loc[:,["Commune","Etage","Piece","Superficie"]].values
 Y = data.loc[:,"Prix"].values
 
 X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.2)
