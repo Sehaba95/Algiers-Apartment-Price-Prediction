@@ -25,7 +25,7 @@ for depth in range(2,10):
 		regressor = BaggingRegressor(DecisionTreeRegressor(max_depth=4))
 		regressor.fit(X_train,Y_train)
 		score = regressor.score(X_test,Y_test)
-		print score
+		#print score
 
 		if max < score:
 			max = score

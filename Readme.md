@@ -23,7 +23,7 @@ There is two different dataset:
     <th>Model performance</th> 
   </tr>
   <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.11618146309209254</td> </tr>
-  <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.14089356791618024</td> </tr>
+  <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.8947024469406739</td> </tr>
   <tr> <td>Bayesian Ridge	</td>   <td>0.01315477774711104</td> </tr>
   <tr> <td>K-Neighbors Regressor</td>   <td>0.06002152073621936</td> </tr>
   <tr> <td>Elastic Net CV 	</td>   <td>0.010869832826167825</td> </tr>
