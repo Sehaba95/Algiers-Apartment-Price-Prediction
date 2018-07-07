@@ -6,9 +6,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_val_score,ShuffleSplit
 from sklearn import preprocessing
 
-data = pd.read_csv("clean_data1.csv",header=0)
+data = pd.read_csv("final_dataset.csv",header=0)
 
-X = data.loc[:,["Commune","Etage","Superficie","Piece"]].values
+X = data.loc[:,["Commune","Etage","Superficie","Piece","Electricite","Gaz","Eau","Acte notarie","Jardin","Livret foncier","Meuble","Garage","Prix M2"]].values
 Y = data.loc[:,"Prix"].values
 
 scaler = preprocessing.StandardScaler().fit(X)
@@ -23,5 +23,8 @@ shuffle = ShuffleSplit(n_splits=10,test_size=0.3)
 
 scores = cross_val_score(regressor,X,Y,cv=shuffle)
 print("Shuffle : ")
+max = 0
 for score in scores:
-	print(score)
+	if max < score:
+		max = score
+print(max)

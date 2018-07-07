@@ -1,19 +1,9 @@
 <h1>Algiers Apartment Price Prediction </h1>
 This is a set of regression algorithms from Scikit-Learn applied to a dataset that I created by scraping Ouedkniss.
 
-There is two different dataset:
+Dataset
 
-      dataset.csv: This dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 500 and 3000.
-
-      dataset1.csv: this dataset has a total of 2254 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 500 and 3000. but with more specification: 
-          For piece = 2, the maximum price is 1300.
-          For piece = 3, the maximum price is 1900.
-          For piece = 4, the maximum price is 2500.
-          For piece = 5 and piece = 6, the maximum price is 3000.
-          
-
-
-
+      dataset.csv: This dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 1000 and 3000.        
 
 <h3>Algorithms and results for dataset</h3>
 
@@ -22,26 +12,16 @@ There is two different dataset:
     <th>Algorithm</th>
     <th>Model performance</th> 
   </tr>
-  <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.11618146309209254</td> </tr>
+
+  <tr> <td>Linear Regression + Polynomial Features</td>   <td>0.999999741611395</td> </tr>
+  <tr> <td>Gradient Boosting Regressor </td>   <td>0.9858766569580077</td> </tr>
+  <tr> <td>K-Neighbors Regressor</td>   <td>0.9630467001266263</td> </tr>
+  <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.9204440187791958</td> </tr>
   <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.8947024469406739</td> </tr>
-  <tr> <td>Bayesian Ridge	</td>   <td>0.01315477774711104</td> </tr>
-  <tr> <td>K-Neighbors Regressor</td>   <td>0.06002152073621936</td> </tr>
-  <tr> <td>Elastic Net CV 	</td>   <td>0.010869832826167825</td> </tr>
-  <tr> <td>Gradient Boosting Regressor </td>   <td>0.11939087333965237</td> </tr>
-  <tr> <td>Huber Regressor </td>   <td>0.014384050432566187</td> </tr>
-  <tr> <td>Lasso </td>   <td>0.018268544396819242</td> </tr>
-  <tr> <td>Lasso CV </td>   <td>0.014203212651127893</td> </tr>
-  <tr> <td>Lasso Lars</td>   <td>0.01083257406688265</td> </tr>
-  <tr> <td>Lasso Lars CV </td>   <td>0.00910628488933185</td> </tr>
-  <tr> <td>Lasso Lars IC</td>   <td>0.0135400236787524</td> </tr>
-  <tr> <td>Linear Regression</td>   <td>0.021217915075751992</td> </tr>
-  <tr> <td>Perceptron</td>   <td>0.06329113924050633</td> </tr>
-  <tr> <td>Linear Regression + Polynomial Features</td>   <td>0.044100638120837754</td> </tr>
-  <tr> <td>Random Forest Regressor</td>   <td>0.12254485863068942</td> </tr>
-  <tr> <td>Linear Regression + Shuffle</td>   <td>0.0336093116333287</td> </tr>
-  <tr> <td>Ridge</td>   <td>0.015105453040539785</td> </tr>
-  <tr> <td>Theil Sen Regressor </td>   <td>0.014381140622549027</td> </tr>
-  <tr> <td>Elastic Net </td>   <td>0.011829166113588752</td> </tr>
+  <tr> <td>Random Forest Regressor</td>   <td>0.8782715106569678</td> </tr>
+  <tr> <td>Huber Regressor </td>   <td>0.6353590641754322</td> </tr>
+  <tr> <td>Theil Sen Regressor </td>   <td>0.6118002706527432</td> </tr>
+  <tr> <td>Linear Regression + Shuffle</td>   <td>0.44051705962842097</td> </tr>
 </table>
 
 <h2>Correlation of selected features for dataset</h2>
