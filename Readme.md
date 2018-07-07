@@ -1,9 +1,7 @@
 <h1>Algiers Apartment Price Prediction </h1>
 This is a set of regression algorithms from Scikit-Learn applied to a dataset that I created by scraping Ouedkniss.
 
-Dataset
-
-      dataset.csv: This dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 1000 and 3000.        
+This dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 1000 and 3000.        
 
 <h3>Algorithms and results for dataset</h3>
 
