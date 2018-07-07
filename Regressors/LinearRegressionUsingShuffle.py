@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_val_score,ShuffleSplit
 from sklearn import preprocessing
 
-data = pd.read_csv("dataset1.csv",header=0)
+data = pd.read_csv("clean_data1.csv",header=0)
 
 X = data.loc[:,["Commune","Etage","Superficie","Piece"]].values
 Y = data.loc[:,"Prix"].values

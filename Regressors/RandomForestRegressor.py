@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-data = pd.read_csv("dataset.csv",header=0)
+data = pd.read_csv("clean_data1.csv",header=0)
 
 X = data.loc[:,["Commune","Etage","Piece","Superficie"]].values
 Y = data.loc[:,"Prix"].values

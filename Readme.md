@@ -1,9 +1,21 @@
 <h1>Algiers Apartment Price Prediction </h1>
 This is a set of regression algorithms from Scikit-Learn applied to a dataset that I created by scraping Ouedkniss.
 
-The dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 500 and 300.
+There is two different dataset:
 
-<h3>Algorithms and results</h3>
+      dataset.csv: This dataset has a total of 3553 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 500 and 3000.
+
+      dataset1.csv: this dataset has a total of 2254 samples with a size of 13 (4 are selected to train the model), features are real positive values and targets are real between 500 and 3000. but with more specification: 
+          For piece = 2, the maximum price is 1300.
+          For piece = 3, the maximum price is 1900.
+          For piece = 4, the maximum price is 2500.
+          For piece = 5 and piece = 6, the maximum price is 3000.
+          
+
+
+
+
+<h3>Algorithms and results for dataset</h3>
 
 <table>
   <tr>
@@ -32,7 +44,7 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   <tr> <td>Elastic Net </td>   <td>0.011829166113588752</td> </tr>
 </table>
 
-<h2>Correlation of selected features</h2>
+<h2>Correlation of selected features for dataset</h2>
 
 <table>
   <tr>
@@ -85,7 +97,7 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
 </table>
 
-<h2>Data Profiling</h2>
+<h2>Data Profiling for dataset</h2>
 
 <table>
   <tr>
@@ -150,7 +162,7 @@ The dataset has a total of 3553 samples with a size of 13 (4 are selected to tra
   </tr>
 </table>
 
-<h2>Plot features</h2>
+<h2>Plot features for dataset</h2>
 
 <h4>Commune</h4>
 
