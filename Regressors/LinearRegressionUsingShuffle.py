@@ -6,10 +6,17 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_val_score,ShuffleSplit
 from sklearn import preprocessing
 
-data = pd.read_csv("dataset.csv",header=0)
+data = pd.read_csv("clean_data.csv",sep=",",index_col=None, prefix=None,skip_blank_lines=True,header=0)
 
-X = data.loc[:,["Commune","Etage","Superficie","Piece","Electricite","Gaz","Eau","Acte notarie","Jardin","Livret foncier","Meuble","Garage","Prix M2"]].values
+X = data.loc[:,["Quartier","Commune","Etage","Superficie","Piece","Electricite" ,  "Gaz" ,  "Eau" ,  "Acte notarie","Jardin" , "Livret foncier", "Meuble", "Garage"]].values
 Y = data.loc[:,"Prix"].values
+
+X = pd.DataFrame(X)
+
+
+le = preprocessing.LabelEncoder()
+X = X.apply(le.fit_transform)
+
 
 scaler = preprocessing.StandardScaler().fit(X)
 X = scaler.transform(X)

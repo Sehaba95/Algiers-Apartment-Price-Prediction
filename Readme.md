@@ -11,15 +11,15 @@ This dataset has a total of 3553 samples with a size of 13 (4 are selected to tr
     <th>Model performance</th> 
   </tr>
 
-  <tr> <td>Linear Regression + Polynomial Features</td>   <td>0.999999741611395</td> </tr>
-  <tr> <td>Gradient Boosting Regressor </td>   <td>0.9858766569580077</td> </tr>
-  <tr> <td>K-Neighbors Regressor</td>   <td>0.9630467001266263</td> </tr>
-  <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.9204440187791958</td> </tr>
-  <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.8947024469406739</td> </tr>
-  <tr> <td>Random Forest Regressor</td>   <td>0.8782715106569678</td> </tr>
-  <tr> <td>Huber Regressor </td>   <td>0.6353590641754322</td> </tr>
-  <tr> <td>Theil Sen Regressor </td>   <td>0.6118002706527432</td> </tr>
-  <tr> <td>Linear Regression + Shuffle</td>   <td>0.44051705962842097</td> </tr>
+  <tr> <td>Linear Regression + Polynomial Features</td>   <td>0.02067345956704003</td> </tr>
+  <tr> <td>Gradient Boosting Regressor </td>   <td>0.12610201107980723</td> </tr>
+  <tr> <td>K-Neighbors Regressor</td>   <td>-0.1956575117534145</td> </tr>
+  <tr> <td>Decision Tree Regressor + Ada Boost Regressor</td>  <td>0.025200951666729643</td> </tr>
+  <tr> <td>Decision Tree Regressor + Bagging Regressor </td>   <td>0.1218648622524763</td> </tr>
+  <tr> <td>Random Forest Regressor</td>   <td>0.1303632423343436</td> </tr>
+  <tr> <td>Huber Regressor </td>   <td>-0.2150968619259983</td> </tr>
+  <tr> <td>Theil Sen Regressor </td>   <td>-0.03935666883265565</td> </tr>
+  <tr> <td>Linear Regression + Shuffle</td>   <td>0.052494793812623786</td> </tr>
 </table>
 
 <h2>Correlation of selected features for dataset</h2>
